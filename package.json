@@ -1,0 +1,38 @@
+{
+  "name": "eng-takehome-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/garner-health/eng-takehome-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/garner-health/eng-takehome-template/issues"
+  },
+  "homepage": "https://gitlab.com/garner-health/eng-takehome-template#readme",
+  "ava": {
+    "require": "ts-node/register",
+    "extensions": [
+      "ts"
+    ],
+    "files": [
+      "src/*.test.ts"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "ava": "^3.5.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
